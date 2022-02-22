@@ -55,4 +55,35 @@ NameError: name 'Blind' is not defined
 			 3
 			 Blind
 			 Mice
+>>> a = 3
+>>> b = "Blind"
+>>> c = "Mice"
+>>> for i in range(0,3):
+	print"\t"*(i + 1),a)
+	
+SyntaxError: invalid syntax
+>>> a = 3
+>>> b = "Blind"
+>>> c = "Mice"
+>>> for i in range(0,3):
+	
+SyntaxError: multiple statements found while compiling a single statement
+>>> a = 3
+>>> b = "Blind"
+>>> c = "Mice"
+>>> for i in range(0,3):
+	print("\t"*(i + 1),a)
+	print("\t"*(i + 2),b)
+	print("\t"*(i + 3),c)
+
+	
+	 3
+		 Blind
+			 Mice
+		 3
+			 Blind
+				 Mice
+			 3
+				 Blind
+					 Mice
 >>> 
