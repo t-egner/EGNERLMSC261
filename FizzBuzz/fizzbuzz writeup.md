@@ -40,7 +40,7 @@ while (count <= 99):
 
 - Yay, it wor- ...WHAT?! Why is it not printing out "Buzz" when count == 5?!!!!!
 - Just googled the difference between `if` and `elif` and read:
-"so the difference is that the code always checks to see if an 'if' statement is true, checks 'elif' statements only if each 'if' and 'elif' statement above it is false, and 'else' runs only when the conditions for all attached 'if' and 'elif' statements are false." (first result returned on google)[https://www.google.com/search?q=difference+between+if+and+elif+commands&rlz=1C5CHFA_enUS896US897&oq=difference+between+if+and+elif+commands&aqs=chrome..69i57j33i160l3.4651j0j7&sourceid=chrome&ie=UTF-8]
+"so the difference is that the code always checks to see if an 'if' statement is true, checks 'elif' statements only if each 'if' and 'elif' statement above it is false, and 'else' runs only when the conditions for all attached 'if' and 'elif' statements are false." [first result returned on google](https://www.google.com/search?q=difference+between+if+and+elif+commands&rlz=1C5CHFA_enUS896US897&oq=difference+between+if+and+elif+commands&aqs=chrome..69i57j33i160l3.4651j0j7&sourceid=chrome&ie=UTF-8)
 - Alright, let's try changing my `if` statements to `elif` ones instead:
 
 count = 0
