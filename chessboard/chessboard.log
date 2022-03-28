@@ -1,0 +1,38 @@
+VM7 logging.js:1 webpage-iframe: Moved to href=https://8017446c48806f3a646845e772b2fc1f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html
+VM85 logging.js:1 webpage-iframe: Moved to href=https://8017446c48806f3a646845e772b2fc1f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html
+VM194 logging.js:1 webpage-iframe: Moved to href=https://8017446c48806f3a646845e772b2fc1f.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html
+VM356 logging.js:1 webpage-iframe: Moved to href=https://tpc.googlesyndication.com/sodar/Enqz_20U.html
+VM7 logging.js:1 webpage-iframe: Moved to href=https://www.google.com/recaptcha/api2/aframe
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/axios/dist/axios.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/moment/min/moment.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/axios/dist/axios.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/moment/min/moment.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/axios/dist/axios.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/moment/min/moment.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/axios/dist/axios.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/moment/min/moment.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/axios/dist/axios.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/node_modules/moment/min/moment.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+let result = " ";
+ for (let x = 0; x < 8; x++){
+    for (let z = 0; z < 8; z++){
+      if (0 == (z + x) % 2){
+        result += " ";
+      } else if (0 != (z + x) % 2){
+        result += "#";
+      }   
+    }    
+    result += "\n";
+} 
+console.log(result);
+
+VM401:12   # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+
+undefined
